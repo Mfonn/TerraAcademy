@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.gradient {
+  background: linear-gradient(343deg, rgba(213,230,250,1) 0%, rgba(201,225,238,1) 75%, rgba(213,230,250,1) 100%);
+}
+
+.drop-shadow-cs {
+  filter: drop-shadow(2.7px 2.06px 15.46px rgba(0,0,0, 0.25));
+}
